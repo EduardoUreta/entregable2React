@@ -4,7 +4,7 @@ export function Acordion({saludo}) {
   return (
     <div>
         <h1 className="saludo text-lg-center">{saludo}</h1>
-        <div className='container' style={{ width: '40%' }}>
+        <div className='container' style={{ width: '65%' }}>
             <Accordion defaultActiveKey="0" flush>
             <Accordion.Item eventKey="0">
                 <Accordion.Header className='bg-amber-200'>Tienda Santiago</Accordion.Header>
