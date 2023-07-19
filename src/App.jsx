@@ -1,16 +1,20 @@
 import { Header } from './componentes/Header'
 import { ItemListContainer } from './componentes/ItemListContainer'
 import { BotonBienvenida } from './componentes/BotonBienvenida'
+import { CarouselComponent } from "./componentes/Carrusel"
 
 import '../src/style/style.css'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { PokeApi } from './componentes/PokeApi'
 import { PokeList } from './componentes/PokeList'
 import { PokeCard } from './componentes/PokeCard'
-import { Contacto } from './componentes/contacto'
+
 
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 import { ItemDetailContainer } from './componentes/ItemDetailContainer'
+import { Error404 } from './componentes/Error404'
 
 
 
@@ -23,21 +27,16 @@ function App() {
     {/* Controlo la navegabilidad */}
 
       <div>
+        <Header/>
+        <CarouselComponent/>
+        
         <Routes>
-          <Route path="/PokeApi" element={<Header poke/>}/>
-          <Route path="*" element={<Header/>}/>
-        </Routes>
+          <Route path="/"></Route>
+          <Route path="/productos" element={<ItemListContainer saludo={"Tienda Online de bebidas, alcohol, snacks, carnes, verduras y más.."}></ItemListContainer>}/>
+          <Route path="/productos/:categoryID" element={<ItemListContainer/>}></Route>
+          <Route path="*" element={<Error404/>}></Route>
 
-        <Routes>
-          <Route path="/" element={<ItemListContainer saludo={"Tienda Online de bebidas y alcohol"}></ItemListContainer>}/>
-          <Route path="/PokeApi" element={<PokeApi/>}></Route>
-          {/* <Route path="*" element={<h2>Página no encontrada - Error 404</h2>}></Route> */}
-          <Route path="*" element={<Navigate to="/"/>}></Route>
-            {/* Puedo definir si quiero usar un comodin para las rutas
-            que no existen, o si redirecciono a otra que si existe,
-            esto cuando se ingresa a un path que no existe */}
-    
-          <Route exact path="/productos/:categoryID" element={<ItemListContainer/>}></Route>
+
           {/* El : significa que es un valor dinámico */}
 
           <Route exact path="/detail/:itemId" element={<ItemDetailContainer/>}></Route>
@@ -48,7 +47,6 @@ function App() {
         {/* <PokeList/>
         <PokeCard/> */}
 
-        <Contacto/>
 
       </div>
     </BrowserRouter>

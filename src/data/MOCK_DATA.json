@@ -1,50 +1,146 @@
 [
     {
         "id": 1, 
-        "nombre": "Producto 1",
-        "descripcion": "El mejor producto",
-        "precio": 1500,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "category": "verduleria"
+        "nombre": "Coca-Cola",
+        "descripcion": "Refréscate",
+        "precio": 1000,
+        "img": "https://kiosclub.com/9452-large_default/coca-cola-original.jpg",
+        "category": "bebidas"
     },
     {
         "id": 2, 
-        "nombre": "Producto 2",
-        "descripcion": "El mejor producto",
-        "precio": 2500,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "category": "verduleria"
+        "nombre": "Sprite",
+        "descripcion": "¿Antojo de limón?",
+        "precio": 1000,
+        "img": "https://www.compraonline.alcampo.es/images-v3/37ea0506-72ec-4543-93c8-a77bb916ec12/de367c06-33f2-48db-bd4a-e19080f7e931/500x500.jpg",
+        "category": "bebidas"
     },
     {
         "id": 3, 
-        "nombre": "Producto 3",
-        "descripcion": "El mejor producto",
-        "precio": 3500,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "category": "panaderia"
+        "nombre": "Fanta",
+        "descripcion": "La más Fanta-stica",
+        "precio": 1000,
+        "img": "https://zarachuches.com/121-large_default/fanta-naranja-lata-033-l-caja-24-uds.jpg",
+        "category": "bebidas"
     },
     {
         "id": 4, 
-        "nombre": "Producto 4",
-        "descripcion": "El mejor producto",
-        "precio": 4500,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "category": "panaderia"
+        "nombre": "Carne Molida",
+        "descripcion": "500 gramos de sabor",
+        "precio": 7900,
+        "img": "https://r.btcdn.co/r/eyJzaG9wX2lkIjozMjQ4LCJnIjoiNTIweCJ9/7389a6e01189c6d/682305-1550_Carne_molida_500grs_Angus_Congelado_Granja_Magdalena_1.png",
+        "category": "carniceria"
     },
     {
         "id": 5, 
-        "nombre": "Producto 5",
-        "descripcion": "El mejor producto",
-        "precio": 5500,
-        "img": "https://dummyimage.com/200x200/000/fff",
+        "nombre": "Pechuga de Pollo",
+        "descripcion": "Para tus caldos",
+        "precio": 4900,
+        "img": "https://dojiw2m9tvv09.cloudfront.net/44889/product/29496bf-013843.jpg",
         "category": "carniceria"
     },
     {
         "id": 6, 
-        "nombre": "Producto 6",
-        "descripcion": "El mejor producto",
-        "precio": 1500,
-        "img": "https://dummyimage.com/200x200/000/fff",
-        "category": "perfumeria"
+        "nombre": "Pulpa de Cerdo",
+        "descripcion": "Para la parrilla",
+        "precio": 3500,
+        "img": "https://agrocomercial.cl/wp-content/uploads/2022/10/Pulpa-paleta-de-cerdo.jpg",
+        "category": "carniceria"
+    },
+    {
+        "id": 7, 
+        "nombre": "Papas Fritas",
+        "descripcion": "Lays",
+        "precio": 1900,
+        "img": "https://cdnx.jumpseller.com/italee/image/28492340/lays_cla.jpg?1666130634",
+        "category": "snack"
+    },
+    {
+        "id": 8, 
+        "nombre": "Cabritas",
+        "descripcion": "Vamos al cine!",
+        "precio": 2500,
+        "img": "https://www.supersg.cl/wp-content/uploads/2020/06/vneck-tee-sku_10164-3.jpg",
+        "category": "snack"
+    },
+    {
+        "id": 9, 
+        "nombre": "Ramitas de Queso",
+        "descripcion": "Exquisitas",
+        "precio": 3500,
+        "img": "https://www.confiterialamundial.cl/wp-content/uploads/confiteria-la-mundial-ramitas-queso-250-gr.jpg",
+        "category": "snack"
+    },
+    {
+        "id": 10, 
+        "nombre": "Lechuga",
+        "descripcion": "Lechuga Costina",
+        "precio": 700,
+        "img": "https://cdnx.jumpseller.com/biofresco-empresas/image/21238224/Lechuga-Costina-NV.jpg?1645449479",
+        "category": "verduleria"
+    },
+    {
+        "id": 11, 
+        "nombre": "Tomate",
+        "descripcion": "Los más rojitos",
+        "precio": 1400,
+        "img": "https://www.grupoalta.com/wp-content/uploads/2018/05/Productos_Tomate_Bola.jpg",
+        "category": "verduleria"
+    },
+    {
+        "id": 12, 
+        "nombre": "Cebolla",
+        "descripcion": "Ideal para tus sofritos",
+        "precio": 800,
+        "img": "https://www.lapulperiamovil.cl/image/cache/catalog/Productos/Cebolla-500x500.jpg",
+        "category": "verduleria"
+    },
+    {
+        "id": 13, 
+        "nombre": "Leche",
+        "descripcion": "1 litro",
+        "precio": 1200,
+        "img": "https://icbfs.vtexassets.com/arquivos/ids/173081/150000005.jpg?v=637908353421500000",
+        "category": "lacteos"
+    },
+    {
+        "id": 14, 
+        "nombre": "Queso Gauda",
+        "descripcion": "10 láminas",
+        "precio": 2400,
+        "img": "https://eldistribuidor.cl/wp-content/uploads/2021/08/gouda-laminado.jpg",
+        "category": "lacteos"
+    },
+    {
+        "id": 15, 
+        "nombre": "Yoghurt Natural",
+        "descripcion": "Los Quillayes",
+        "precio": 3000,
+        "img": "https://www.quillayes.cl/wp-content/uploads/2020/04/yogurt-natural-compra.jpg",
+        "category": "lacteos"
+    },
+    {
+        "id": 16, 
+        "nombre": "Pisco",
+        "descripcion": "Mistral",
+        "precio": 6900,
+        "img": "https://www.supermercadodiez.cl/image/cache/catalog/PACK%202018%20Abril/mistral-35-litro-500x500.jpg",
+        "category": "alcohol"
+    },
+    {
+        "id": 17, 
+        "nombre": "Ron",
+        "descripcion": "Barceló Añejo",
+        "precio": 7900,
+        "img": "https://dondelanegra.cl/wp-content/uploads/2020/09/barcelo_anejo1L-500x500.jpg",
+        "category": "alcohol"
+    },
+    {
+        "id": 18, 
+        "nombre": "Tequila",
+        "descripcion": "El patrón",
+        "precio": 10000,
+        "img": "https://dondelanegra.cl/wp-content/uploads/2022/06/Tequila-Patron-Anejo-750cc-500x500.jpg",
+        "category": "alcohol"
     }
 ]

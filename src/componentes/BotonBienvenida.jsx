@@ -12,7 +12,7 @@ export const BotonBienvenida = ({children}) => {
             <button className="boton" onClick={saludar}>
                 {children}
                 <p></p>
-                <p className="text-warning">{saludo ? "¡Las mejores ofertas en Alcohol!":"¡Los precios más bajos!"}</p>
+                <p className="text-warning">{saludo ? "¡Las mejores ofertas en Alcohol!":"¡Las carnes mas sabrosas!"}</p>
             </button>
         </div>
     )
