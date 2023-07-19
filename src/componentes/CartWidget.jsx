@@ -1,4 +1,4 @@
-import carritoCompras from '/Entregables/ReactJS/entregable1React/public/carrito.png'
+import carritoCompras from '../assets/carrito.png'
 
 export const CartWidget = () =>{
     return(
