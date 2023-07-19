@@ -8,7 +8,6 @@ export const ItemDetail = ({item}) => {
                 <p><b>{item.descripcion}</b></p> 
                 <p><b>Precio:</b><b className="text-warning"> ${item.precio}</b></p>
                 <p className="capitalize">Categoría: {item.category}</p>
-
                 <button className="btn btn-primary">Agregar</button>
                 <Link to ="/productos">Volver atras</Link>
             </div>

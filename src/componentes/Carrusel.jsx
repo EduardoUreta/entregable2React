@@ -12,7 +12,7 @@ export function CarouselComponent() {
                 alt="Primera imagen"
                 />
                 <Carousel.Caption>
-                <h3>Encuentra las mejores carnes</h3>
+                <h2>Encuentra las mejores carnes</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -22,7 +22,7 @@ export function CarouselComponent() {
                 alt="Segunda imagen"
                 />
                 <Carousel.Caption>
-                <h3 className='text-black'>Variedad en Alcohol</h3>
+                <h2 className='text-black'>Variedad en Alcohol</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,7 +32,7 @@ export function CarouselComponent() {
                 alt="Segunda imagen"
                 />
                 <Carousel.Caption>
-                <h3>Todas las frutas y verduras</h3>
+                <h2>Todas las frutas y verduras</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             </Carousel>
