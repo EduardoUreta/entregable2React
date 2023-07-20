@@ -1,8 +1,5 @@
-import { useEffect, useState } from "react";
 import { BotonBienvenida } from "./BotonBienvenida"
 
-
-import { pedirDatos } from "../helpers/pedirDatos"
 import { useProductos } from "../hooks/useProductos"
 import { Link, NavLink } from "react-router-dom";
 

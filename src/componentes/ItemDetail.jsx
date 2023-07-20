@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export const ItemDetail = ({item}) => {
 
     return (
-            <div className="img-fluid card col-4 text-center m-auto w-25 ">
+            <div className="img-fluid card col-4 text-center m-auto">
                 <img src={item.img} alt={item.nombre}/>
                 <h1 className="text-bg-dark"><b>{item.nombre}</b></h1>
                 <p><b>{item.descripcion}</b></p> 
