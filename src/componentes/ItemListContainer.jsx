@@ -13,6 +13,33 @@ export const ItemListContainer = ({saludo}) => {
             <p></p>
 
             <BotonBienvenida/>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <br></br><h1 class="text-blue-900"><b>Filtra por categorias:</b></h1>
+                    </div>
+                </div>
+                <div class="row bg-black text-light ">
+                    <div class="col">
+                        <NavLink to="/productos/bebidas" class="btn btn-info btn-block mb-2">Bebidas</NavLink>
+                    </div>
+                    <div class="col">
+                        <NavLink to="/productos/alcohol" class="btn btn-dark btn-block mb-2">Alcohol</NavLink>
+                    </div>
+                    <div class="col">
+                        <NavLink to="/productos/carniceria" class="btn btn-danger btn-block mb-2">Carnes</NavLink>
+                    </div>
+                    <div class="col">
+                        <NavLink to="/productos/verduleria" class="btn btn-success btn-block mb-2">Verduras</NavLink>
+                    </div>
+                    <div class="col">
+                        <NavLink to="/productos/snack" class="btn btn-warning btn-block mb-2">Snacks</NavLink>
+                    </div>
+                    <div class="col">
+                        <NavLink to="/productos/lacteos" class="btn btn-warning btn-block mb-2">Lacteos</NavLink>
+                    </div>
+                </div>
+            </div>
 
             <div className="row custom-font justify-content-around row-gap-4">
             {
@@ -28,15 +55,6 @@ export const ItemListContainer = ({saludo}) => {
                 )
             )
             }
-            <div>
-                <h1 className="text-bg-light">Filtra por categorias:</h1>
-                <NavLink to="/productos/bebidas" className='text-black text-center mr-5'>Bebidas</NavLink>
-                <NavLink to="/productos/alcohol" className='text-black text-center mr-5'>Alcohol</NavLink>
-                <NavLink to="/productos/carniceria" className='text-black text-center mr-5'>Carnes</NavLink>
-                <NavLink to="/productos/verduleria" className='text-black text-center mr-5'>Verduras</NavLink>
-                <NavLink to="/productos/snack" className='text-black text-center mr-5'>Snacks</NavLink>
-            </div>
-
         </div>
         </div>
     )}
